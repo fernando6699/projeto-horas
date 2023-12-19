@@ -1,9 +1,43 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: black;
     color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.corpo-horas{
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ height: 200px;
+ width: 500px;
+ background-color: white;
+ color: black;
+ box-shadow: 5px 5px 5px rgb(245, 0, 0);
+ border-radius: 10px;
+ border: 1px solid red;
+}
+.corpo-horas div{
+    width: 150px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    box-shadow: 5px 5px 5px black;
+    color: white;
+}
+.corpo-horas span{
+    font-weight: 800;
+   
 }
